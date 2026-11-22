@@ -1,0 +1,39 @@
+{
+  "name": "ai-by-faraz-lead-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI by Faraz — Agentic Lead Engine. Autonomous multi-agent B2B lead discovery, CRM & outreach engine.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node tests/e2e-test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@xyflow/react": "^13.0.2",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.14.0",
+    "lucide-react": "^1.77.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "recharts": "^3.11.0",
+    "tailwind-merge": "^3.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}

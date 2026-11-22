@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: agentic-ai
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_DEFAULT_MODEL
+        value: anthropic/claude-3.5-sonnet
+      - key: APP_TIMEZONE
+        value: America/Toronto
+      - key: DEFAULT_DAILY_LEAD_TARGET
+        value: "50"
